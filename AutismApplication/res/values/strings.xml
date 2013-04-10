@@ -9,5 +9,6 @@
     <string name="title_activity_all_tasks_collapsable_view">AllTasksCollapsableViewActivity</string>
     <string name="new_task_button_str">New Task</string>
     <string name="view_all_tasks_button_str">View All</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
 
 </resources>
