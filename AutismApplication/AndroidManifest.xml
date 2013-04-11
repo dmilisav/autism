@@ -24,6 +24,14 @@
         <activity
             android:name="com.autismapplication.HomeScreen"
             android:label="@string/title_activity_home_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEWTASK" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.autismapplication.ViewTask"
+            android:label="@string/app_name" >
         </activity>
     </application>
 
