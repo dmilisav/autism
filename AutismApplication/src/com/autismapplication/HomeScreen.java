@@ -7,6 +7,7 @@ import java.util.List;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
@@ -47,6 +48,8 @@ public class HomeScreen extends Activity {
 
 		final ArrayAdapterImpl adapter = new ArrayAdapterImpl(this,
 				android.R.layout.simple_list_item_1, list);
+		
+		final HomeScreen mHomeScreen = this;
 		mListView.setAdapter(adapter);
 
 		mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -55,11 +58,9 @@ public class HomeScreen extends Activity {
 					int position, long id) {
 				// here we start the new screen for the specific task clicked
 				Context context = getApplicationContext();
-				CharSequence text = "show details of task screen";
-				int duration = Toast.LENGTH_SHORT;
-
-				Toast toast = Toast.makeText(context, text, duration);
-				toast.show();
+				Intent i = new Intent();
+				i.setClass(mHomeScreen, ViewTask.class);
+				startActivity(i);
 			}
 		});
 
@@ -79,7 +80,7 @@ public class HomeScreen extends Activity {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		getMenuInflater().inflate(R.menu.home_screen, menu);
+		//getMenuInflater().inflate(R.menu.home_screen, menu);
 		return true;
 	}
 

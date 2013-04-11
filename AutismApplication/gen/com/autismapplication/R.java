@@ -24,9 +24,19 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
+        public static final int ImageView01=0x7f08000f;
+        public static final int ImageView02=0x7f08000b;
+        public static final int ImageView03=0x7f08000a;
+        public static final int ImageView04=0x7f080009;
+        public static final int ImageView05=0x7f080008;
+        public static final int ImageView06=0x7f08000e;
+        public static final int ImageView07=0x7f08000d;
         public static final int LinearLayout1=0x7f080000;
-        public static final int action_settings=0x7f080007;
+        public static final int action_settings=0x7f080011;
+        public static final int horizontalScrollView1=0x7f080007;
+        public static final int horizontalScrollView2=0x7f08000c;
         public static final int imageView1=0x7f080005;
+        public static final int imageView2=0x7f080010;
         public static final int listView1=0x7f080003;
         public static final int new_task_plus_img=0x7f080001;
         public static final int textView1=0x7f080002;
@@ -37,6 +47,7 @@ public final class R {
         public static final int activity_home_screen=0x7f030000;
         public static final int activity_splash_screen=0x7f030001;
         public static final int home_screen_list_row=0x7f030002;
+        public static final int view_task_screen=0x7f030003;
     }
     public static final class menu {
         public static final int all_tasks_collapsable_view=0x7f070000;
