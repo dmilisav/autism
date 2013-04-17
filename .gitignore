@@ -2,8 +2,6 @@
 *.swn
 *.swo
 *.swm
-.DS_STORE
+*.DS_STORE
 .metadata/
 AutismApplication/bin/
-AutismApplication/gen/
-*.class
