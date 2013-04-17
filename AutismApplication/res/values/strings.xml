@@ -17,27 +17,22 @@
     <string name="createRemindersHeader">Create Reminders</string>
     <string name="createReminderToggleLabel">Remind Once</string>
     <string name="createReminderDate">April 33th, 2837</string>
-    
+
     <string-array name="create_reminders_toggle_sections">
-        <item>Remind Once</item>
+        <item>Remind Me On a Day</item>
+        <item>Remind Me At a Location</item>
     </string-array>
-    
-    <string-array name="create_reminders_repeat_sections">
-        <item>Remind At Location</item>
-    </string-array>
-    
+
     <integer-array name="create_reminders_toggle_visibility">
         <item>0</item>
-    </integer-array>
-    <integer-array name="create_reminders_toggle_repeat_visibility">
         <item>0</item>
     </integer-array>
+
     <string-array name="repeat_spinner">
         <item>None</item>
         <item>Every Day</item>
         <item>Every Week</item>
         <item>Every Month</item>
-        <item>Faggot</item>
     </string-array>
     <string-array name="location_spinner">
         <item>414 Wacom Dr</item>
@@ -53,19 +48,16 @@
     <string-array name="accordion_sections">
         <item>Notes</item>
         <item>Pictures</item>
-        <item>Videos</item>
         <item>Contacts</item>
-        <item>Section E</item>
     </string-array>
 
     <integer-array name="accordion_visibility">
         <item>0</item>
         <item>0</item>
         <item>0</item>
-        <item>0</item>
-        <item>0</item>
     </integer-array>
 
+    <string name="album_name">Independence Maker Pictures</string>
     <string name="title_activity_create_reminders">CreateRemindersActivity</string>
 
 </resources>
