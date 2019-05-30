@@ -70,6 +70,10 @@ android {
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
     }
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 26
+    }
 }
 
 repositories {
